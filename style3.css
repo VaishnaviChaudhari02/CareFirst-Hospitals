@@ -1,0 +1,156 @@
+.navbar1 {
+  display: flex;
+  padding-left: 0px;
+  box-shadow: 0px 2px 4px black;
+}
+
+.menu {
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  margin-top: 3px;
+
+}
+
+.navbar li {
+  float: left;
+  padding-left: 40px;
+  text-decoration: none;
+
+}
+
+.navbar li a {
+  color: #03C04A;
+
+  padding: 10px;
+
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bolder;
+  position: relative;
+  border: none;
+  border-radius: 50px;
+}
+
+.navbar li a:hover {
+  color: white;
+  transition: .3s ease-in-out;
+  background: linear-gradient(to right, #4CA9DF 0%, #A1FFB3 100%);
+}
+
+.one:hover~a {
+  margin-left: 25%;
+}
+
+.two:hover~a {
+  margin-left: 50%;
+}
+
+.three:hover~a {
+  margin-left: 75%;
+}
+
+.four:hover~a {
+  margin-left: 100%;
+}
+
+.five:hover~a {
+  margin-left: 125%;
+}
+
+.logo img {
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px black;
+
+  margin-bottom: 2px;
+
+}
+
+.logo {
+  margin: 8px;
+  padding-left: 10px;
+
+}
+
+.logo2 {
+  padding: 4px;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("bgimgappointment.jpg");
+  min-height: 887px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: brightness(30%)
+}
+
+.form {
+  font-weight: bolder;
+  top: 14%;
+  left: 35%;
+  width: 32%;
+  position: absolute;
+  box-shadow: 0px 4px 7px antiquewhite;
+}
+
+.container {
+  border-style: solid;
+  border-color: #04AA6D;
+  border-block-width: 15px;
+  right: 40;
+  margin: 20px;
+  padding: 16px;
+  background-color: white;
+}
+
+.container h2 {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #04AA6D;
+}
+
+label {
+
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+input#name {
+  border: solid 2px;
+  box-shadow: inset 0px 1px 2px black;
+  padding: 9px;
+  width: 250px;
+  height: 10%;
+  margin: 10px;
+}
+
+input#date {
+  border: solid 2px;
+  box-shadow: inset 0px 1px 2px black;
+  padding: 9px;
+  width: 250px;
+  height: 10%;
+  margin: 10px;
+
+}
+
+button {
+  font-size: 18px;
+}
+
+button#submit {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}

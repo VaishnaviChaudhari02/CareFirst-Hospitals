@@ -1,0 +1,69 @@
+
+.serve p{
+	font-weight:bolder;
+	font-family:Arial;
+    text-align:center;
+    font-size:50px;
+    color:#028A0F;
+}
+.cards{
+	width:20%;
+	background-color:white;
+	border-style:solid;
+    border-color:green;
+   box-shadow:0 5px 15px #94F994;
+   display:inline-block;
+   margin-right:40px;
+   padding-right:20px;
+   padding-top: 30px;
+   padding-left:20px;
+   margin-top: 30px;
+   margin-left:60px;
+
+}
+
+}
+.s2 h3{
+	padding-left:10px;
+
+
+}
+.SS{
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.s3 {
+
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:20px;
+}
+.s3 button{
+	padding-top:10px;
+	background-color:white;
+    border-radius:10px;
+    font-weight:bolder;
+
+   }
+   .s3 button{
+   	
+   	padding:5px;
+   	background:lime;
+   	color:white;
+   	
+   }
+
+   .s3 a{
+text-decoration:none;
+   }
+
+   .s3 button a:hover{
+   	background:lime;
+   	color:white;
+   
+   }
+
+	
+
+

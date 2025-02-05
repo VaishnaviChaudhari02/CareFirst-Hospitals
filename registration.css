@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(197, 248, 187);
+}
+.main{
+    display:flex;
+    justify-content: center;
+}
+.registration-form{
+    align-items: center;
+}
+
+form{
+    border:1px solid #04AA6D;
+    padding:20px;
+    background-color: white;
+}
+label{
+    font-size:20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+input{
+    width:250px;
+    padding:10px;
+    margin:0px 10px;
+}
+input::placeholder{
+    font-size:18px;
+}
+form button{
+    width:200px;
+    height:40px;
+    background-color: #04AA6D;
+    border:none;
+    font-size:16px;
+    color:white;
+    font-weight:500;
+    
+}
+.banner img {
+   height:538px;
+   width:500px;
+   object-fit: cover;
+}
+h2{
+    text-align:center;
+}
+h2 a{
+    text-decoration: none;
+    color:#04AA6D;
+}

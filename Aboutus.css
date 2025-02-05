@@ -1,0 +1,139 @@
+
+ .navbar1{display:flex;
+padding-left:0px;
+box-shadow:0px 2px 4px black;
+}
+.menu{
+    background-color: white;
+    display:flex;
+  padding:10px;
+  margin-top:3px;
+
+}
+.navbar li{
+    float:left;
+    padding-left: 40px;
+    text-decoration: none;
+
+ }
+ .navbar li a{
+    color:#03C04A;
+
+  padding:10px;
+ 
+    text-decoration: none;
+    font-family:Arial;
+    font-weight:bolder;
+  position:relative;
+border:none;
+border-radius:50px;
+ }
+ .navbar li a:hover{
+color:white;
+transition:.3s ease-in-out;
+background:linear-gradient(to right,#4CA9DF 0%,#A1FFB3 100%);
+ }
+ 
+ .one:hover~a{
+  margin-left:25%;
+ }
+ .two:hover~a{
+  margin-left:50%;
+ }
+ .three:hover~a{
+  margin-left:75%;
+ }
+ .four:hover~a{
+  margin-left:100%;
+ }
+ .five:hover~a{
+  margin-left:125%;
+ }
+ .logo img{
+  border-radius:50%;
+  box-shadow:0px 2px 3px black;
+
+margin-bottom:2px;
+
+ }
+.logo{
+  margin:8px;
+  padding-left:10px;
+ 
+}
+ .logo2 {padding:4px;}
+ .imp{
+    margin-top:5px;
+    height:400px;
+    background-color:#33cccc;
+}
+.image img{
+    border-radius:10px;
+    border-bottom-left-radius:500px;
+}
+.descp h1{
+    font-size:80px;
+    padding:30px;
+     padding-bottom:10px;
+    margin:20px;
+    color:white;
+    
+}
+.descp h2{
+    font-size:50px;
+    padding:10px;
+    padding-left:10px;
+
+    margin:40px;
+    color:white;
+}
+
+.we h2{
+    font-size:35px;
+    color:#33cccc;
+}
+.choose{
+    margin:30px;
+}
+.ch1 img{
+    margin:30px;
+ border-radius:30px;
+ padding: 20px;
+  box-shadow: 0px 2px 8px black;
+}
+
+.ch2 h2{
+
+    font-size:35px;
+    padding:5px;
+    padding-right:10px;
+    color:#33cccc;
+}
+.ch2 p{
+    margin:10px;
+    margin-left:10px;
+  
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.value1 h2{
+    color:#33cccc;
+    font-size:30px;
+}
+.value1 h3{
+    font-size:20px;
+    font-weight:bolder;
+
+}
+
+.value2 img{
+    margin:10px;
+   padding:30px;
+   border-radius:50px;
+   box-shadow: 0px 2px 8px black;
+   }
+.values{
+    display:flex;
+    margin:20px;
+}
